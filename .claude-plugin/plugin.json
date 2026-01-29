@@ -1,13 +1,13 @@
 {
-  "name": "superpowers",
-  "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques",
-  "version": "4.0.3",
+  "name": "superpowers-zh",
+  "description": "Superpowers 中文版：TDD、调试、协作模式等核心技能库",
+  "version": "4.0.3-zh",
   "author": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
+    "name": "泽坤 (基于 Jesse Vincent 的 superpowers)",
+    "email": ""
   },
   "homepage": "https://github.com/obra/superpowers",
   "repository": "https://github.com/obra/superpowers",
   "license": "MIT",
-  "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"]
+  "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows", "中文"]
 }

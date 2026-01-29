@@ -1,54 +1,54 @@
 ---
 name: brainstorming
-description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
+description: "在任何创造性工作之前必须使用——创建功能、构建组件、添加功能或修改行为。在实施之前探索用户意图、需求和设计。"
 ---
 
-# Brainstorming Ideas Into Designs
+# 头脑风暴：从想法到设计
 
-## Overview
+## 概述
 
-Help turn ideas into fully formed designs and specs through natural collaborative dialogue.
+通过自然的协作对话，帮助把想法变成完整的设计和规格。
 
-Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design in small sections (200-300 words), checking after each section whether it looks right so far.
+先了解当前项目上下文，然后一次问一个问题来细化想法。一旦你理解了要构建什么，用小节（200-300 字）呈现设计，每节之后确认到目前为止是否正确。
 
-## The Process
+## 流程
 
-**Understanding the idea:**
-- Check out the current project state first (files, docs, recent commits)
-- Ask questions one at a time to refine the idea
-- Prefer multiple choice questions when possible, but open-ended is fine too
-- Only one question per message - if a topic needs more exploration, break it into multiple questions
-- Focus on understanding: purpose, constraints, success criteria
+**理解想法：**
+- 先查看当前项目状态（文件、文档、最近的提交）
+- 一次问一个问题来细化想法
+- 尽可能用选择题，开放式问题也可以
+- 每条消息只问一个问题——如果某个话题需要更多探索，拆成多个问题
+- 专注于理解：目的、约束、成功标准
 
-**Exploring approaches:**
-- Propose 2-3 different approaches with trade-offs
-- Present options conversationally with your recommendation and reasoning
-- Lead with your recommended option and explain why
+**探索方案：**
+- 提出 2-3 个不同的方案及其权衡
+- 用对话方式呈现选项，附上你的推荐和理由
+- 先说你推荐的选项，解释为什么
 
-**Presenting the design:**
-- Once you believe you understand what you're building, present the design
-- Break it into sections of 200-300 words
-- Ask after each section whether it looks right so far
-- Cover: architecture, components, data flow, error handling, testing
-- Be ready to go back and clarify if something doesn't make sense
+**呈现设计：**
+- 一旦你相信自己理解了要构建什么，呈现设计
+- 分成 200-300 字的小节
+- 每节之后问是否到目前为止看起来对
+- 覆盖：架构、组件、数据流、错误处理、测试
+- 准备好回去澄清，如果有什么不清楚的
 
-## After the Design
+## 设计之后
 
-**Documentation:**
-- Write the validated design to `docs/plans/YYYY-MM-DD-<topic>-design.md`
-- Use elements-of-style:writing-clearly-and-concisely skill if available
-- Commit the design document to git
+**文档：**
+- 把验证过的设计写入 `docs/plans/YYYY-MM-DD-<主题>-design.md`
+- 如果有的话，使用 elements-of-style:writing-clearly-and-concisely 技能
+- 把设计文档提交到 git
 
-**Implementation (if continuing):**
-- Ask: "Ready to set up for implementation?"
-- Use superpowers:using-git-worktrees to create isolated workspace
-- Use superpowers:writing-plans to create detailed implementation plan
+**实施（如果继续）：**
+- 问："准备好设置实施环境了吗？"
+- 使用 superpowers-zh:using-git-worktrees 创建隔离的工作空间
+- 使用 superpowers-zh:writing-plans 创建详细的实施计划
 
-## Key Principles
+## 关键原则
 
-- **One question at a time** - Don't overwhelm with multiple questions
-- **Multiple choice preferred** - Easier to answer than open-ended when possible
-- **YAGNI ruthlessly** - Remove unnecessary features from all designs
-- **Explore alternatives** - Always propose 2-3 approaches before settling
-- **Incremental validation** - Present design in sections, validate each
-- **Be flexible** - Go back and clarify when something doesn't make sense
+- **一次一个问题** - 别用多个问题淹没对方
+- **优先选择题** - 比开放式问题更容易回答
+- **严格 YAGNI** - 从所有设计中移除不必要的功能
+- **探索替代方案** - 在确定之前总是提出 2-3 个方案
+- **增量验证** - 分节呈现设计，验证每一节
+- **保持灵活** - 有不清楚的地方就回去澄清
