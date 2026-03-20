@@ -8,7 +8,7 @@ Quick setup to enable superpowers skills in Codex.
    ```bash
    mkdir -p ~/.codex/superpowers
    cd ~/.codex/superpowers
-   git clone https://ghfast.top/github.com/yuzh2001/superpowers-zh-yu.git .
+   git clone https://ghfast.top/github.com/yuzh2001/superpowers-zh-yu.git ./superpowers
    ```
 
 2. **Create personal skills directory**:
